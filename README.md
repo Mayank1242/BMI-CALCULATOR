@@ -1,14 +1,6 @@
-# BMI Calculator React.js Website 📊
+# Deploying a React BMI Calculator to GitHub Pages 📊
 
 A simple and interactive BMI (Body Mass Index) calculator built using React.js.
-
-## Table of Contents 📜
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
 
 ## Introduction 🚀
 
@@ -48,7 +40,31 @@ npm start
 
 4. View your BMI category and interpretation based on the calculated BMI.
 
+# Deploying to GitHub Pages
 
+1. Open package.json: In your project's package.json file, make sure the "homepage" field is set correctly. It should be in the format https://your-username.github.io/your-repo-name. Update it if necessary.
+
+2. Build the React App: Build your React app to generate a build folder:
+
+npm run build
+
+3. Install the gh-pages Package: If you haven't already, install the gh-pages package as a development dependency:
+
+npm install gh-pages --save-dev
+
+4. Add Deployment Script: In your package.json file, add the following to the "scripts" section:
+
+"scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+}
+
+5. Deploy to GitHub Pages: Run the deployment script to deploy your React app to GitHub Pages:
+
+npm run deploy
+
+6. Access Your Deployed Website: After a few minutes, your React BMI Calculator will be accessible at the URL specified in the "GitHub Pages" section of your repository settings
+   
 ## Contributing 🤝
 
 We welcome contributions to improve this project. Feel free to submit issues, fork the repository, and create pull requests to enhance it.
