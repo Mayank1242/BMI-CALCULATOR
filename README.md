@@ -36,15 +36,13 @@ This BMI Calculator React.js website is designed to help users calculate their B
 
 1. Open package.json: In your project's package.json file, make sure the "homepage" field is set correctly. It should be in the format https://github.com/Mayank1242/BMI-CALCULATOR. Update it if necessary.
 
-2. Build the React App: Build your React app to generate a build folder:
-
-npm run build
+2. Build the React App: Build your React app to generate a build folder: npm run build
 
 3. Install the gh-pages Package: If you haven't already, install the gh-pages package as a development dependency:
-
 npm install gh-pages --save-dev
 
 4. Add Deployment Script: In your package.json file, add the following to the "scripts" section:
+
 "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
