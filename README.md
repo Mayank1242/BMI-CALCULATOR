@@ -22,17 +22,7 @@ This BMI Calculator React.js website is designed to help users calculate their B
 
 3. Install project dependencies: npm install
 
-## Usage 📝
-
-1. Start the development server: npm start
-
-2. Open your web browser and visit http://localhost:3000 to access the BMI Calculator website.
-
-3. Enter your height and weight to calculate your BMI.
-
-4. View your BMI category and interpretation based on the calculated BMI.
-
-# Deploying to GitHub Pages
+## Deploying to GitHub Pages
 
 1. Open package.json: In your project's package.json file, make sure the "homepage" field is set correctly. It should be in the format https://github.com/Mayank1242/BMI-CALCULATOR. Update it if necessary.
 
@@ -43,7 +33,7 @@ npm install gh-pages --save-dev
 
 4. Add Deployment Script: In your package.json file, add the following to the "scripts" section:
 
-"scripts": {
+  "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
 }
@@ -51,7 +41,17 @@ npm install gh-pages --save-dev
 5. Deploy to GitHub Pages: Run the deployment script to deploy your React app to GitHub Pages: npm run deploy
 
 6. Access Your Deployed Website: After a few minutes, your React BMI Calculator will be accessible at the URL specified in the "GitHub Pages" section of your repository settings (e.g. https://mayank1242.github.io/BMI-CALCULATOR/)
-   
+
+## Usage 📝
+
+1. Start the development server: npm start
+
+2. Open your web browser and visit http://localhost:3000 to access the BMI Calculator website.
+
+3. Enter your height and weight to calculate your BMI.
+
+4. View your BMI category and interpretation based on the calculated BMI.
+ 
 ## Contributing 🤝
 
 We welcome contributions to improve this project. Feel free to submit issues, fork the repository, and create pull requests to enhance it.
