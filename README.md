@@ -16,23 +16,15 @@ This BMI Calculator React.js website is designed to help users calculate their B
 
 ## Installation 🛠️
 
-1. **Clone this repository** to your local machine:
+1. **Clone this repository** to your local machine: git clone https://github.com/Mayank1242/BMI-CALCULATOR.git
 
-git clone https://github.com/your-username/bmi-calculator-react.git
+2. Navigate to the project directory: cd bmi-calculator-react
 
-2. Navigate to the project directory
-
-cd bmi-calculator-react
-
-3. Install project dependencies: 
-
-npm install
+3. Install project dependencies: npm install
 
 ## Usage 📝
 
-1. Start the development server:
-
-npm start
+1. Start the development server: npm start
 
 2. Open your web browser and visit http://localhost:3000 to access the BMI Calculator website.
 
@@ -42,7 +34,7 @@ npm start
 
 # Deploying to GitHub Pages
 
-1. Open package.json: In your project's package.json file, make sure the "homepage" field is set correctly. It should be in the format https://your-username.github.io/your-repo-name. Update it if necessary.
+1. Open package.json: In your project's package.json file, make sure the "homepage" field is set correctly. It should be in the format https://github.com/Mayank1242/BMI-CALCULATOR. Update it if necessary.
 
 2. Build the React App: Build your React app to generate a build folder:
 
@@ -53,17 +45,14 @@ npm run build
 npm install gh-pages --save-dev
 
 4. Add Deployment Script: In your package.json file, add the following to the "scripts" section:
-
 "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
 }
 
-5. Deploy to GitHub Pages: Run the deployment script to deploy your React app to GitHub Pages:
+5. Deploy to GitHub Pages: Run the deployment script to deploy your React app to GitHub Pages: npm run deploy
 
-npm run deploy
-
-6. Access Your Deployed Website: After a few minutes, your React BMI Calculator will be accessible at the URL specified in the "GitHub Pages" section of your repository settings
+6. Access Your Deployed Website: After a few minutes, your React BMI Calculator will be accessible at the URL specified in the "GitHub Pages" section of your repository settings (e.g. https://mayank1242.github.io/BMI-CALCULATOR/)
    
 ## Contributing 🤝
 
