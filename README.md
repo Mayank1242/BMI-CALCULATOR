@@ -22,7 +22,7 @@ This BMI Calculator React.js website is designed to help users calculate their B
 
 3. Install project dependencies: npm install
 
-## Deploying to GitHub Pages
+## Deploying to GitHub Pages 🚀
 
 1. Open package.json: In your project's package.json file, make sure the "homepage" field is set correctly. It should be in the format https://github.com/Mayank1242/BMI-CALCULATOR. Update it if necessary.
 
